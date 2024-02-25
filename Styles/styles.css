@@ -31,15 +31,15 @@ h2 {
 article a:visited {
         color:rgb(183, 243, 186)
     }
- article a: hoover {
-        text-decoration: underline;
+ .text :hover {
+    text-decoration: underline;
     }
  a[href="https://www.onthisday.com/events/february/16"] {
         background-color: rgba(204, 89, 23, 0.699);
     } 
     table {
         border-collapse: collapse;
-        width: 100%;!
+        width: 100%;
       }
       th, td {
         border: 2px double #502f03;
