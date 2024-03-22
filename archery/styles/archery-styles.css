@@ -1,0 +1,90 @@
+.container {
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px 400px;
+   grid-template-rows: auto auto auto auto auto;
+   grid-gap: 1em;
+   justify-content: space-evenly;
+   grid-template-areas: 
+    ". header header header ."
+    ". main main main ."
+    ". aside-one aside-two aside-three ."
+   ". footer footer footer .";
+}
+.item-a, .item-b, .item-c, .item-d, .item-e {
+   padding: 1em;
+   font-family: Arial, Helvetica, sans-serif
+}
+.item-a {
+    background-image: url("../images/arrow-image.jpg");
+    grid-area: header;
+background-color: #03a3df;
+text-align: center;
+}
+.bold-arial {
+font-size: 46px;
+color:antiquewhite;
+font-weight: bold;
+font-family:Arial, Helvetica, sans-serif;
+}
+.link-color-1 {
+text-decoration: none;
+color: white
+}
+.item-b {
+background-color: rgba(196, 226, 236, 0.26);
+grid-area: main;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.bold-arial-3 {
+font-size: 24px;
+color: rgba(236, 183, 34);
+}
+.goldenrod {
+color: rgba(236, 183, 34);
+font-style: italic;
+}
+.item-c {
+grid-area: aside-one;
+text-align: center;
+background-image: url("../images/arrow-image.jpg");
+background-color: rgb(3, 163, 223);
+color: antiquewhite;
+}
+.bold-arial-2 {
+font-size: 24px;
+color: antiquewhite;
+font-weight: bold;
+text-decoration: underline;
+}
+.underline-text {
+text-decoration: underline;
+}
+.italic-text {
+    font-style: italic;
+}
+.item-d {
+grid-area: aside-two;
+text-align: center;
+background-image: url("../images/arrow-image.jpg");
+background-color: rgb(3, 163, 223);
+color: antiquewhite;
+}
+.item-e {
+grid-area: aside-three;
+background-image: url("../images/arrow-image.jpg");
+text-align: center;
+background-color: rgb(3, 163, 223);
+color: antiquewhite;
+}
+.item-f {
+grid-area: footer;
+text-align: center;
+background-color: rgba(196, 226, 236, 0.26);
+color: rgba(236, 183, 34);
+}
+.link-color-2 {
+text-decoration: none;
+color: rgba(236, 183, 34);
+}
