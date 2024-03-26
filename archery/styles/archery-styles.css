@@ -31,7 +31,7 @@ text-decoration: none;
 color: white
 }
 .item-b {
-background-color: rgba(196, 226, 236, 0.26);
+background-color: rgb(4, 36, 67);
 grid-area: main;
 display: flex;
 justify-content: center;
@@ -39,22 +39,29 @@ align-items: center;
 }
 .bold-arial-3 {
 font-size: 24px;
-color: rgba(236, 183, 34);
+color: rgba(236, 163, 60);
+}
+.bold-arial-4 {
+    font-size: 24px;
+    color: rgb(48, 12, 176);
 }
 .goldenrod {
-color: rgba(236, 183, 34);
+color: rgba(236, 163, 60);
 font-style: italic;
+}
+.blue-text {
+    color: rgb(48, 12, 176);
+    font-style: italic;
 }
 .item-c {
 grid-area: aside-one;
 text-align: center;
-background-image: url("../images/arrow-image.jpg");
-background-color: rgb(3, 163, 223);
-color: antiquewhite;
+background-color: rgb(206, 233, 248);
+color: rgb(63, 65, 70);
 }
 .bold-arial-2 {
 font-size: 24px;
-color: antiquewhite;
+color: rgb(63, 65, 70);
 font-weight: bold;
 text-decoration: underline;
 }
@@ -67,24 +74,26 @@ text-decoration: underline;
 .item-d {
 grid-area: aside-two;
 text-align: center;
-background-image: url("../images/arrow-image.jpg");
-background-color: rgb(3, 163, 223);
-color: antiquewhite;
+background-color: rgb(206, 233, 248);
+color: rgb(63, 65, 70);
 }
 .item-e {
 grid-area: aside-three;
-background-image: url("../images/arrow-image.jpg");
 text-align: center;
-background-color: rgb(3, 163, 223);
-color: antiquewhite;
+background-color: rgb(206, 233, 248);
+color: rgb(63, 65, 70);
 }
 .item-f {
 grid-area: footer;
 text-align: center;
-background-color: rgba(196, 226, 236, 0.26);
-color: rgba(236, 183, 34);
+background-color: rgb(4, 36, 67);
+color: rgba(236, 163, 60);
 }
 .link-color-2 {
 text-decoration: none;
-color: rgba(236, 183, 34);
+color: rgba(236, 163, 60);
+}
+nav a {
+    padding: .6rem;
+    margin: .6rem;
 }
