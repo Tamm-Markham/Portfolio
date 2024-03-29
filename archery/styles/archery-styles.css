@@ -97,3 +97,11 @@ nav a {
     padding: .6rem;
     margin: .6rem;
 }
+.hidden {
+    position: relative;
+    left: -10000px;
+    top: auto;
+  }
+  .hidden:focus {
+    left: 0;
+  }
