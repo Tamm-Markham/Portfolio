@@ -5,6 +5,7 @@ body {
   display: flex;
   flex-direction:column;
   min-height: 100vh;
+  background: radial-gradient(rgb(75, 75, 95), rgb(13, 4, 58));
 }
 .container-one {
   box-sizing: content-box;
@@ -55,6 +56,8 @@ body {
   padding: 100px;
   text-align: center;
   width: 100%;
+  background-image: url(../images/footer-image.jpg);
+  background-size: cover;
 }
 .white-and-bold {
   color: white;
@@ -124,4 +127,8 @@ blockquote {
 }
 .hidden:focus {
   left: 0;
+}
+.smaller-response {
+  max-width: 60%;
+  height: auto;
 }
